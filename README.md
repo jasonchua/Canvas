@@ -10,8 +10,6 @@ Homework 4
       * :white_check_mark: Pinching images in the canvas area should resize them
 
 
-<img width="320" src=""/>
-
 ![ScreenShot](https://raw.githubusercontent.com/jasonchua/Canvas/master/Canvas.gif)
 
 ---
