@@ -19,6 +19,8 @@
 		96FA5EE6195FB4C900F695D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96FA5ECE195FB4C900F695D5 /* UIKit.framework */; };
 		96FA5EEE195FB4C900F695D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96FA5EEC195FB4C900F695D5 /* InfoPlist.strings */; };
 		96FA5EF0195FB4C900F695D5 /* CanvasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FA5EEF195FB4C900F695D5 /* CanvasTests.m */; };
+		96FA5EFC195FB59500F695D5 /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FA5EFA195FB59500F695D5 /* CanvasViewController.m */; };
+		96FA5EFD195FB59500F695D5 /* CanvasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96FA5EFB195FB59500F695D5 /* CanvasViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		96FA5EEB195FB4C900F695D5 /* CanvasTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CanvasTests-Info.plist"; sourceTree = "<group>"; };
 		96FA5EED195FB4C900F695D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		96FA5EEF195FB4C900F695D5 /* CanvasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanvasTests.m; sourceTree = "<group>"; };
+		96FA5EF9195FB59500F695D5 /* CanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewController.h; sourceTree = "<group>"; };
+		96FA5EFA195FB59500F695D5 /* CanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewController.m; sourceTree = "<group>"; };
+		96FA5EFB195FB59500F695D5 /* CanvasViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CanvasViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,9 @@
 		96FA5EBE195FB4C900F695D5 = {
 			isa = PBXGroup;
 			children = (
+				96FA5EF9195FB59500F695D5 /* CanvasViewController.h */,
+				96FA5EFA195FB59500F695D5 /* CanvasViewController.m */,
+				96FA5EFB195FB59500F695D5 /* CanvasViewController.xib */,
 				96FA5ED0195FB4C900F695D5 /* Canvas */,
 				96FA5EE9195FB4C900F695D5 /* CanvasTests */,
 				96FA5EC9195FB4C900F695D5 /* Frameworks */,
@@ -219,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96FA5EFD195FB59500F695D5 /* CanvasViewController.xib in Resources */,
 				96FA5ED5195FB4C900F695D5 /* InfoPlist.strings in Resources */,
 				96FA5EDD195FB4C900F695D5 /* Images.xcassets in Resources */,
 			);
@@ -241,6 +250,7 @@
 			files = (
 				96FA5EDB195FB4C900F695D5 /* AppDelegate.m in Sources */,
 				96FA5ED7195FB4C900F695D5 /* main.m in Sources */,
+				96FA5EFC195FB59500F695D5 /* CanvasViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
