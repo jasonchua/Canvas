@@ -12,6 +12,8 @@ Homework 4
 
 <img width="320" src=""/>
 
+![ScreenShot](https://raw.githubusercontent.com/jasonchua/Canvas/master/Canvas.gif)
+
 ---
 
 ####Notes
